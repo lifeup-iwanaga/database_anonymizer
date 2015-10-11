@@ -1,0 +1,8 @@
+Description:
+    install database_anonymizer file
+
+Example:
+    rails generate database_anonymizer:install
+
+    This will create:
+        config/database_anonymizer/whitelist.yml

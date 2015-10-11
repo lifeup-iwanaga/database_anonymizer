@@ -1,0 +1,3 @@
+module DatabaseAnonymizer
+  VERSION = "0.0.1"
+end

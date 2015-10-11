@@ -1,0 +1,9 @@
+'User':
+  # name:
+  email:
+    anonymized_by: User.anonymize_email
+  # address:
+  # tel:
+  remarks:
+    anonymized_by: nil
+  # comment:

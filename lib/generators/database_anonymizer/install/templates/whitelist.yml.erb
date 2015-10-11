@@ -1,0 +1,7 @@
+<% DatabaseAnonymizer::Metamorphosis.prepare_for_rake -%>
+<% DatabaseAnonymizer::Metamorphosis.targets.each do |target| -%>
+<%= "# '#{target.model.name}':" %>
+<% target.string_or_text_column_names.each do |column_name| -%>
+  <%= "# #{column_name}:" %>
+  <%- end %>
+<% end -%>
