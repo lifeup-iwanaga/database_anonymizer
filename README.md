@@ -1,4 +1,7 @@
 # DatabaseAnonymizer
+
+[![Gem Version](https://badge.fury.io/rb/database_anonymizer.svg)](https://badge.fury.io/rb/database_anonymizer)
+
 A database anonymizer for Rails 4+
 
 ## Installation
