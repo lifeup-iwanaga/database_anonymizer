@@ -1,6 +1,7 @@
 # DatabaseAnonymizer
 
 [![Gem Version](https://badge.fury.io/rb/database_anonymizer.svg)](https://badge.fury.io/rb/database_anonymizer)
+[![Dependency Status](https://gemnasium.com/blp1526/database_anonymizer.svg)](https://gemnasium.com/blp1526/database_anonymizer)
 
 A database anonymizer for Rails 4+
 
