@@ -19,7 +19,7 @@ module DatabaseAnonymizer
 
     def self.table_existing_active_record_inheritors
       ActiveRecord::Base.descendants.reject do |d|
-        !d.superclass.eql?(ActiveRecord::Base) || d.eql?(ActiveRecord::SchemaMigration) || !d.table_exists?
+        !d.superclass.eql?(ApplicationRecord) || d.eql?(ActiveRecord::SchemaMigration) || !d.table_exists?
       end
     end
 
